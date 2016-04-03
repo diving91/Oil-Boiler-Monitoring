@@ -34,7 +34,7 @@ Eg: When External temperature < -1.0°C, boiler water temperature of 70°C or 72
 *	Before first usage, erase EEPROM with 0xFF<br>
 * 	At first usage Reset Fuel volume Counter and Send HighTemp & LowTemp Values<br>
 *	At power on or after reset, Relay is set for HighTemp mode<br>
-*	At power on or after reset, the sketch sends to controller store values for Fuel Volume, HighTemp, LowTemp, so that the controller is initialized<br>
+*	At power on or after reset, the sketch sends to controller stored values for Fuel Volume, HighTemp, LowTemp, so that the controller is initialized<br>
 *	A DBG_PIN is used to determine at power on, if sketch debug information has to be sent on serial console or not
 *	debug info from MySensors are controller at sketch compile time, not during run time<br>
 
