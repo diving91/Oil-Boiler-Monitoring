@@ -2071,11 +2071,11 @@ Standard A4 size frame in Landscape</description>
 <part name="P+3" library="diving91" deviceset="+5V" device=""/>
 <part name="R5" library="diving91" deviceset="R" device="PMR0.25W" value="10K"/>
 <part name="R4" library="diving91" deviceset="R" device="PMR0.25W" value="1K"/>
-<part name="R3" library="diving91" deviceset="R" device="PMR0.25W" value="1K"/>
+<part name="R3" library="diving91" deviceset="R" device="PMR0.25W" value="300"/>
 <part name="IC3" library="diving91" deviceset="T-NPN" device="T092L" value="2N5551"/>
-<part name="D3" library="diving91" deviceset="LED5MM" device="" value="LED Fuel"/>
-<part name="D2" library="diving91" deviceset="LED5MM" device="" value="LED Relay"/>
-<part name="R6" library="diving91" deviceset="R" device="PMR0.25W" value="1K"/>
+<part name="D3" library="diving91" deviceset="LED5MM" device="" value="LED Fuel - Red"/>
+<part name="D2" library="diving91" deviceset="LED5MM" device="" value="LED Relay - Green"/>
+<part name="R6" library="diving91" deviceset="R" device="PMR0.25W" value="150"/>
 <part name="D1" library="diving91" deviceset="1N4148" device="DO35" value="1N4148"/>
 <part name="C7" library="diving91" deviceset="CPOL-RAD" device="E3-8" value="100uF"/>
 <part name="R7" library="diving91" deviceset="R" device="PMR0.25W" value="10K"/>
@@ -2170,12 +2170,12 @@ R=6K8 for 50mA peak max inrush current</text>
 <attribute name="VALUE" x="213.36" y="142.24" size="1.778" layer="96"/>
 </instance>
 <instance part="D3" gate="G$1" x="81.28" y="66.04" smashed="yes">
-<attribute name="NAME" x="78.232" y="72.136" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="80.772" y="69.215" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="85.852" y="67.056" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="85.852" y="74.295" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D2" gate="G$1" x="210.82" y="170.18" smashed="yes">
 <attribute name="NAME" x="205.232" y="168.656" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="205.232" y="173.355" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="212.852" y="178.435" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R6" gate="G$1" x="81.28" y="55.88" rot="R270"/>
 <instance part="D1" gate="G$1" x="220.98" y="167.64" smashed="yes" rot="R90">
