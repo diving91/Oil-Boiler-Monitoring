@@ -1,7 +1,7 @@
 # Oil-Boiler-Monitoring
 MySensors sketch to Monitor an oil fired boiler &amp; Tune boiler water temperature based on External temperature provided by Mysensors controller
 
-Fuel Sensor V1.0 - Diving91 - 2016 <br>
+Fuel Sensor V2.0 - Diving91 - 2016 <br>
 Mysensors Library used	: 2.0.0-beta<br>
 Repeater Mode		: NO<br>
 Power Supply		: From Mains, No Battery<br>
@@ -38,3 +38,11 @@ Eg: When External temperature < -1.0°C, boiler water temperature of 70°C or 72
 *	A DBG_PIN is used to determine at power on, if sketch debug information has to be sent on serial console or not
 *	debug info from MySensors are controller at sketch compile time, not during run time<br>
 
+<b>V2.0 Addition :</b><br>
+*	Add ability to send volume in its seconds equivalent to let Controllers do the conversion when desired
+* 	Add some wait() during presentation for better reliability 
+*	Some bug fixes
+*	Add 1-wire DS18B20 sensors reading and sending to Mysensors - Values are sent every custom defined time with & without redundancy
+*	To be used with 2 sensors to monitor Water temperature out & in from the water path
+*	When returning water temperature is too high, this indicates your Boiler water temperature might be too high
+*	If no DS18B20 devices are attached, info is not presented to Mysensors controller
