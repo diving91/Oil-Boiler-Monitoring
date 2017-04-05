@@ -46,3 +46,5 @@ Eg: When External temperature < -1.0°C, boiler water temperature of 70°C or 72
 *	To be used with 2 sensors to monitor Water temperature out & in from the water path
 *	When returning water temperature is too high, this indicates your Boiler water temperature might be too high
 *	If no DS18B20 devices are attached, info is not presented to Mysensors controller
+
+<img src="https://github.com/diving91/Oil-Boiler-Monitoring/blob/master/Pictures/_DSC7561.jpg">
